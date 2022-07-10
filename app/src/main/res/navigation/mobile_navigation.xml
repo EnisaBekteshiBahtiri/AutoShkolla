@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/loginFragment">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.autoshkolla.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_categoryA"
+            app:destination="@id/categoryA" />
+        <action
+            android:id="@+id/action_nav_home_to_categoryB"
+            app:destination="@id/categoryB" />
+        <action
+            android:id="@+id/action_nav_home_to_categoryC"
+            app:destination="@id/categoryC" />
+        <action
+            android:id="@+id/action_nav_home_to_categoryD"
+            app:destination="@id/categoryD" />
+        <action
+            android:id="@+id/action_nav_home_to_questionFragment"
+            app:destination="@id/questionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_aboutus"
+        android:name="com.example.autoshkolla.ui.aboutus.AboutUsFragment"
+        android:label="@string/menu_aboutus"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.example.autoshkolla.ui.login.LoginFragment"
+        android:label="login_fragment"
+        tools:layout="@layout/login_fragment" >
+        <action
+            android:id="@+id/action_loginFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+        <action
+            android:id="@+id/action_loginFragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_forgotPasswordFragment"
+            app:destination="@id/forgotPasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="com.example.autoshkolla.ui.register.RegisterFragment"
+        android:label="register_fragment"
+        tools:layout="@layout/register_fragment" >
+        <action
+            android:id="@+id/action_registerFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/action_registerFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryA"
+        android:name="com.example.autoshkolla.ui.home.categoryA.CategoryA"
+        android:label="Category A"
+        tools:layout="@layout/category_a_fragment" >
+        <action
+            android:id="@+id/action_categoryA_to_categoryARules"
+            app:destination="@id/categoryARules" />
+        <action
+            android:id="@+id/action_categoryA_to_categoryASigns"
+            app:destination="@id/categoryASigns" />
+        <action
+            android:id="@+id/action_categoryA_to_questionFragment"
+            app:destination="@id/questionFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryB"
+        android:name="com.example.autoshkolla.ui.home.categoryB.CategoryB"
+        android:label="Category B"
+        tools:layout="@layout/category_b_fragment" >
+        <action
+            android:id="@+id/action_categoryB_to_categoryBRules"
+            app:destination="@id/categoryBRules" />
+        <action
+            android:id="@+id/action_categoryB_to_categoryBSigns"
+            app:destination="@id/categoryBSigns" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryC"
+        android:name="com.example.autoshkolla.ui.home.categoryC.CategoryC"
+        android:label="Category C"
+        tools:layout="@layout/category_c_fragment" >
+        <action
+            android:id="@+id/action_categoryC_to_categoryCSigns"
+            app:destination="@id/categoryCSigns" />
+        <action
+            android:id="@+id/action_categoryC_to_categoryCRules"
+            app:destination="@id/categoryCRules" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryD"
+        android:name="com.example.autoshkolla.ui.home.categoryD.CategoryD"
+        android:label="Category D"
+        tools:layout="@layout/category_d_fragment" >
+        <action
+            android:id="@+id/action_categoryD_to_categoryDRules"
+            app:destination="@id/categoryDRules" />
+        <action
+            android:id="@+id/action_categoryD_to_categoryDSigns"
+            app:destination="@id/categoryDSigns" />
+    </fragment>
+    <fragment
+        android:id="@+id/forgotPasswordFragment"
+        android:name="com.example.autoshkolla.ui.login.ForgotPasswordFragment"
+        android:label="forgot_password_fragment"
+        tools:layout="@layout/forgot_password_fragment" >
+        <action
+            android:id="@+id/action_forgotPasswordFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryARules"
+        android:name="com.example.autoshkolla.ui.home.categoryA.rules.CategoryARules"
+        android:label="Category A Rules"
+        tools:layout="@layout/fragment_category_a_rules" />
+
+    <fragment
+        android:id="@+id/categoryASigns"
+        android:name="com.example.autoshkolla.ui.home.categoryA.signs.CategoryASigns"
+        android:label="Category A Signs"
+        tools:layout="@layout/fragment_category_a_signs" />
+
+    <fragment
+        android:id="@+id/nav_rateus"
+        android:name="com.example.autoshkolla.ui.rate_us.RateUsFragment"
+        android:label="Rate Us"
+        tools:layout="@layout/fragment_rate_us" />
+    <fragment
+        android:id="@+id/categoryBRules"
+        android:name="com.example.autoshkolla.ui.home.categoryB.rules.CategoryBRules"
+        android:label="Category B Rules"
+        tools:layout="@layout/category_b_rules_fragment" />
+    <fragment
+        android:id="@+id/categoryBSigns"
+        android:name="com.example.autoshkolla.ui.home.categoryB.signs.CategoryBSigns"
+        android:label="Category B Signs"
+        tools:layout="@layout/category_b_signs_fragment" />
+    <fragment
+        android:id="@+id/questionFragment"
+        android:name="com.example.autoshkolla.ui.question.QuestionFragment"
+        android:label="Questions"
+        tools:layout="@layout/question_fragment">
+        <action
+            android:id="@+id/action_questionFragment_to_resultFragment"
+            app:destination="@id/resultFragment" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/resultFragment"
+        android:name="com.example.autoshkolla.ui.question.ResultFragment"
+        android:label="Result"
+        tools:layout="@layout/result_fragment">
+        <action
+            android:id="@+id/action_resultFragment_to_nav_home"
+            app:destination="@id/nav_home" />
+        <argument
+            android:name="score"
+            app:argType="integer"
+            android:defaultValue="0" />
+    </fragment>
+    <fragment
+        android:id="@+id/categoryCRules"
+        android:name="com.example.autoshkolla.ui.home.categoryC.rules.CategoryCRules"
+        android:label="Category C Rules"
+        tools:layout="@layout/category_c_rules_fragment" />
+    <fragment
+        android:id="@+id/categoryCSigns"
+        android:name="com.example.autoshkolla.ui.home.categoryC.signs.CategoryCSigns"
+        android:label="Category C SIgns"
+        tools:layout="@layout/category_c_signs_fragment" />
+    <fragment
+        android:id="@+id/categoryDRules"
+        android:name="com.example.autoshkolla.ui.home.categoryD.rules.CategoryDRules"
+        android:label="Catgory D Rules"
+        tools:layout="@layout/category_d_rules_fragment" />
+    <fragment
+        android:id="@+id/categoryDSigns"
+        android:name="com.example.autoshkolla.ui.home.categoryD.signs.CategoryDSigns"
+        android:label="Category D Signs"
+        tools:layout="@layout/category_d_signs_fragment" />
+</navigation>

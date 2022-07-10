@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Lenovo/Desktop/AutoShkolla/app/src/main/res/layout/login_fragment.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/back.xml" value="0.325" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/button_background_blue.xml" value="0.2865" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/home.xml" value="0.338" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/ic_add_img.xml" value="0.2865" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/ic_back_img.xml" value="0.338" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/ic_login_hero.xml" value="0.338" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/ic_register_hero.xml" value="0.338" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/ic_side_bg.xml" value="0.2865" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/drawable/side_nav_bar.xml" value="0.338" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/activity_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/app_bar_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/category_a_fragment.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/content_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/forgot_password_fragment.xml" value="0.18" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/fragment_gallery.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/fragment_slideshow.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/login_fragment.xml" value="0.3536458333333333" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/logout_fragment.xml" value="0.14722222222222223" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/nav_header_main.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/layout/register_fragment.xml" value="0.35625" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/menu/activity_main_drawer.xml" value="0.371875" />
+        <entry key="..\:/Users/keds30682/AndroidStudioProjects/AutoShkolla/app/src/main/res/menu/main.xml" value="0.371875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

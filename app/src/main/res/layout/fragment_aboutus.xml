@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+tools:context=".ui.aboutus.AboutUsFragment">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/background"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@color/black" />
+
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImageView"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/enisa"
+            android:layout_margin="50dp"
+            app:civ_border_color="#40FFFFFF"
+            app:civ_border_width="10dp" />
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/circularImageView2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="50dp"
+            android:src="@drawable/jora"
+            app:civ_border_color="#40FFFFFF"
+            app:civ_border_width="10dp" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/background"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="90dp"
+            android:text="Enisa"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/background"
+            android:layout_marginStart="270dp"
+            android:text="Jora"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_marginStart="60dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="20dp"
+            android:text="Software Developer"
+            android:textColor="#5c5c5c" />
+
+        <TextView
+            android:id="@+id/description2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name2"
+            android:layout_marginTop="6dp"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@+id/description"
+            android:text="Software Developer"
+            android:textColor="#5c5c5c" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/description"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="16dp"
+            android:padding="4dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true">
+
+
+            <TextView
+                android:id="@+id/devDescriptionTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Details"
+                android:textColor="#464646"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/devDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="50dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="We are two developers who created this app. \n This app has been created to help people who need to learn about driving things. \n It was a good experience and good feeling to create this kind of app to help people ."
+                android:textColor="#464646"
+                android:textSize="14sp" />
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</ScrollView>
+</RelativeLayout>
+
+
+
+
+
+
+
